@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import ContactCard from "../Contact/ContactCard";
 import "./ContactList.css";
 
-const ContactList = ({ result }) => {
-  console.log("result: ", result);
+const ContactList = () => {
   const [contactListData, setContactListData] = useState(null);
   const [search, setSearch] = useState("");
   const [filteredContacts, setFilteredContacts] = useState([]);
